@@ -9,7 +9,7 @@ Using Edamam's Recipe Search API, I created this simple application.
 
 ## How to use ##
 - Clone this repository into a specific folder.
-- Preferably go to https://developer.edamam.com/edamam-recipe-api and get an ID and API key. I am using the developer option.
+- Preferably go to https://developer.edamam.com/edamam-recipe-api and get an ID and API key. Then, replace mine in src/App.js. I am using the developer option.
 - Open terminal and type "npm start".
 
 ### This is an incomplete project ###
