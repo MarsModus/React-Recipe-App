@@ -1,0 +1,40 @@
+.navbar {
+  .MobileNavigation {
+    display: none;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: burlywood;
+    }
+  }
+}
+
+@media (max-width: 675px) {
+  .navbar {
+    .Navigation {
+      display: none;
+    }
+    .MobileNavigation {
+      display: flex;
+      ul{
+        flex-direction: column;
+        position: absolute;
+        right:0;
+        top:8vh;
+        width:50%;
+        padding:.5em 0 1em 0;
+        background-color: brown;
+      }
+      .Hamburger{
+        color:white;
+        cursor: pointer;
+      }
+    }
+  }
+}

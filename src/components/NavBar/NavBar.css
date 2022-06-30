@@ -1,0 +1,50 @@
+.navbar .MobileNavigation {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2em;
+  list-style: none;
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: burlywood;
+}
+
+@media (max-width: 675px) {
+  .navbar .Navigation {
+    display: none;
+  }
+  .navbar .MobileNavigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar .MobileNavigation ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 8vh;
+    width: 50%;
+    padding: .5em 0 1em 0;
+    background-color: brown;
+  }
+  .navbar .MobileNavigation .Hamburger {
+    color: white;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=NavBar.css.map */

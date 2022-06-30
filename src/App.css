@@ -1,0 +1,75 @@
+*,
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Yanone Kaffeesatz;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2em;
+}
+
+.search-section h1 {
+  font-size: 2.7em;
+}
+
+.search-form{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:.7em;
+}
+
+.search-section input {
+  padding: 1em 2em;
+}
+
+.search-section button {
+  padding: .6em 2em;
+  background-color: brown;
+  color: burlywood;
+  font-weight: bold;
+  font-size: 110%;
+  cursor: pointer;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 6vh;
+  margin-top: 2em;
+  margin-bottom: 0;
+  background-color: brown;
+}
+
+@media (max-width: 675px) {
+  .search-section{
+    font-size:13px;
+  }
+  .search-form{ 
+    flex-direction: column;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

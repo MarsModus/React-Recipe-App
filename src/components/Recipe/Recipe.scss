@@ -1,0 +1,26 @@
+.recipe-results {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  flex-direction: column;
+  width: 50%;
+  gap: 1em;
+  border: 3px solid brown;
+  box-shadow: 7px 7px 2px 1px rgba(10, 10, 10, 0.2);
+  h1 {
+    text-align: center;
+    background-color: brown;
+    padding: 0.5em;
+    width: 100%;
+  }
+  .image-container {
+    margin: 0 auto;
+    img {
+        width: 100%;
+      }
+  }
+}
+
+@media (max-width: 680px) {
+  
+}
