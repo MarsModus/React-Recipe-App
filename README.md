@@ -1,5 +1,13 @@
-##React App for finding Recipes
+##React App for finding Recipes##
 
 Using Edamam's Recipe Search API, I created this simple application.
 
-I used React and Material UI, along with axios for fetching data. 
+#Tech used#
+-React
+-Material UI, the ingredient accordion
+-Axios, for fetching data from the API
+
+#How to use#
+-Clone this repository into a specific folder.
+-Preferably go to https://developer.edamam.com/edamam-recipe-api and get an ID and API key. I am using the developer option.
+-Open terminal and type "npm start".
